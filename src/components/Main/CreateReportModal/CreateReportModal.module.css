@@ -1,0 +1,58 @@
+.modalBody {
+  padding: 1.25rem;
+}
+
+.layoutRow {
+  align-items: flex-start;
+}
+
+.formColumn {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: 0.75rem;
+}
+
+.previewColumn {
+  padding-left: 0.75rem;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.previewImage {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  margin-bottom: 1rem;
+}
+
+.mapWrapper {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.mapError {
+  border: 2px solid #dc3545 !important;
+}
+
+.locationBox {
+  background-color: #f8f9fa;
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  border: 1px solid var(--color-border);
+}
+
+.buttonRow {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}

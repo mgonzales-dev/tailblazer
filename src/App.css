@@ -1,0 +1,29 @@
+:root {
+  --color-bg-page: #f5f7fa;
+  --color-white: #fff;
+  --color-brand: #2c572b;
+  --color-muted: #6c757d;
+  --color-border: #dee2e6;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 14px;
+}
+
+body {
+  background-color: var(--color-bg-page);
+}
+
+h4,
+h5 {
+  font-weight: 600;
+}
+
+.leaflet-container {
+  border-radius: var(--radius-md);
+}
+
+.card,
+.modal-content {
+  border-radius: var(--radius-lg);
+}

@@ -1,0 +1,70 @@
+.mainContainer {
+  padding-top: 90px;
+  padding-bottom: 1.5rem;
+}
+
+.mapSection {
+  margin-bottom: 1.5rem;
+}
+
+.mapFrame {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.filterSection {
+  margin-bottom: 1.5rem;
+}
+
+.emptyState {
+  padding: 2rem 0;
+  text-align: center;
+  color: var(--color-muted);
+}
+
+.popupImage {
+  width: 100%;
+  margin-bottom: 0.75rem;
+  max-height: 150px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+}
+
+.popupTitle {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.popupButton {
+  margin-top: 0.75rem;
+  width: 100%;
+}
+
+.mapSection :global(.leaflet-popup-content-wrapper) {
+  padding: 0.25rem;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.mapSection :global(.leaflet-popup-content) {
+  min-width: 220px;
+  margin: 0.75rem;
+}
+
+.mapSection :global(.leaflet-popup-tip) {
+  box-shadow: none;
+}
+
+.mapSection :global(.leaflet-container) {
+  border-radius: var(--radius-xl);
+}
+
+.filterSection label {
+  font-weight: 500;
+}
+
+.filterSection select {
+  border-radius: var(--radius-sm);
+}

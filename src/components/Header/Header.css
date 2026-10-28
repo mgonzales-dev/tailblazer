@@ -1,0 +1,16 @@
+header .navbar {
+  background-color: var(--color-brand);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .btn {
+  font-weight: 500;
+  background-color: var(--color-white);
+}
+
+header .btn:hover,
+header .btn:focus,
+header .btn:active {
+  color: var(--color-brand);
+  background-color: var(--color-white);
+}
