@@ -2,7 +2,7 @@
 
 *Solo course project for CMPT 272 (Spring 2026), Simon Fraser University.*
 
-![TailBlazer screenshot](docs/screenshot.png)
+![TailBlazer screenshot](docs/screenshot.jpg)
 
 TailBlazer is a lost animal reporting website built with React, CSS, and React Bootstrap. Users can
 submit lost animal reports and view animals using an interactive map or gallery. The map is rendered
